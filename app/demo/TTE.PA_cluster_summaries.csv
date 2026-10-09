@@ -1,0 +1,41 @@
+canonical_id,n_ptcs,direction,polarity,corpus_presence,summary
+TTE.PA-management-755,30,consequence,-1,insider_only,Strategic investments and operational decisions drive company financial performance.
+TTE.PA-press-127,21,consequence,-1,outsider_only,Market conditions and strategic decisions drive company financial performance.
+TTE.PA-management-772,20,precursor,1,insider_only,Financial decisions and operational activities impact company's financial performance and reserves.
+TTE.PA-management-999,19,precursor,-1,insider_only,"Production, development costs, and financial decisions impact company reserves and income."
+TTE.PA-management-1173,19,precursor,1,insider_only,High PUD development costs in multiple countries strain company finances.
+TTE.PA-management-1534,19,consequence,-1,insider_only,Financial performance fluctuations drive changes in company compensation and dividend policies.
+TTE.PA-management-1608,18,consequence,-1,insider_only,Financial decisions and operational outcomes impact company's income and reserves.
+TTE.PA-management-1564,18,consequence,1,insider_only,Board decisions and strategic agreements enhance company performance and reserves.
+TTE.PA-management-813,17,consequence,-1,insider_only,Strategic investments and operational decisions drive company performance and financial outcomes.
+TTE.PA-management-1233,15,precursor,1,insider_only,Strategic financial decisions and reserve management impact company's financial health.
+TTE.PA-management-615,13,consequence,-1,insider_only,Financial performance and strategic decisions impact company's financial health and reserves.
+TTE.PA-management-1216,13,precursor,1,insider_only,Strategic investments and operational decisions drive company growth and financial outcomes.
+TTE.PA-management-1524,13,consequence,1,insider_only,Strategic investments and developments drive company growth and reserve expansion.
+TTE.PA-management-826,13,precursor,1,insider_only,TOTAL's strategic investments and operational decisions impact financial performance.
+TTE.PA-management-1339,13,precursor,-1,insider_only,Strategic investments and operational activities drive Total's financial performance.
+TTE.PA-management-1146,12,consequence,1,insider_only,Construction and development of energy projects increase company costs and reserves.
+TTE.PA-management-878,12,precursor,-1,insider_only,Strategic investments and operational expenses drive company financial performance.
+TTE.PA-management-1639,12,consequence,-1,insider_only,Strategic investments and developments drive company growth and reserve management.
+TTE.PA-management-500,12,precursor,1,insider_only,Strategic investments and production adjustments drive company growth and financial performance.
+TTE.PA-management-1533,12,precursor,-1,insider_only,TOTAL's strategic investments and financial decisions impact company performance.
+TTE.PA-management-1489,11,consequence,1,insider_only,TOTAL's strategic investments and commitments drive increased operational costs and financial allocations.
+TTE.PA-management-538,11,precursor,1,insider_only,Strategic investments and operational commitments drive company financial dynamics.
+TTE.PA-management-1561,11,consequence,-1,insider_only,Lower revenues and higher expenses decrease pre-tax income and influence performance-based compensation decisions.
+TTE.PA-management-1166,11,precursor,1,insider_only,Financial performance and strategic decisions drive company resource allocation and production.
+TTE.PA-management-1447,11,consequence,-1,insider_only,Production and development activities significantly impact TOTAL's reserves and financial allocations.
+TTE.PA-management-1228,11,precursor,-1,insider_only,Strategic investments and operational decisions drive TOTAL's financial performance.
+TTE.PA-management-1261,11,consequence,1,insider_only,Financial performance fluctuations drive dividend decisions and strategic reserve management.
+TTE.PA-management-770,11,precursor,1,insider_only,Financial decisions and operational performance drive company's economic outcomes.
+TTE.PA-management-1437,10,consequence,-1,insider_only,Financial performance and resource allocation drive company's operational and strategic decisions.
+TTE.PA-management-1456,10,precursor,1,insider_only,Strategic investments and operational expenses drive company financial performance.
+TTE.PA-management-1374,10,consequence,1,insider_only,TOTAL's financial decisions and commitments impact its economic performance.
+TTE.PA-management-851,10,consequence,1,insider_only,High development costs and operational expenses reduce company profitability.
+TTE.PA-management-519,10,precursor,1,insider_only,Strategic investments and operational decisions drive TOTAL's financial performance.
+TTE.PA-management-665,10,consequence,1,insider_only,Financial performance and strategic investments drive company's economic outcomes.
+TTE.PA-management-195,10,consequence,1,insider_only,Strategic decisions and asset management drive financial performance and shareholder value.
+TTE.PA-management-902,10,consequence,1,insider_only,Financial performance fluctuations drive dividend policy and reserve valuation changes.
+TTE.PA-management-1555,10,consequence,1,insider_only,Non-payment of interim dividends in 2017 impacts company liquidity.
+TTE.PA-management-1428,10,consequence,1,insider_only,Strategic investments and operational decisions impact company reserves and financial performance.
+TTE.PA-management-1323,10,precursor,1,insider_only,Strategic investments and operational decisions drive company financial performance.
+TTE.PA-management-915,10,precursor,-1,insider_only,Strategic investments and operational decisions drive financial performance and obligations.

@@ -1,0 +1,68 @@
+# Company universe for corpus acquisition and the public app.
+# ticker      = yfinance symbol (used for prices and as the pipeline ticker)
+# fmp_symbol  = Financial Modeling Prep symbol (defaults to ticker if omitted)
+# ir_url      = optional investor-relations page for PDF harvesting
+
+companies:
+  # --- Europe ---
+  - {ticker: ML.PA, name: Michelin, sector: Tires & Rubber, country: FR,
+     ir_url: "https://www.michelin.com/en/finance/regulated-information/"}
+  - {ticker: AIR.PA, name: Airbus, sector: Aerospace & Defense, country: FR}
+  - {ticker: MC.PA, name: LVMH, sector: Luxury Goods, country: FR}
+  - {ticker: OR.PA, name: "L'Oreal", sector: Personal Care, country: FR}
+  - {ticker: TTE.PA, name: TotalEnergies, sector: Oil & Gas, country: FR,
+     ir_url: "https://totalenergies.com/investors/publications-and-regulated-information/regulated-information/annual-financial-reports"}
+  - {ticker: SAN.PA, name: Sanofi, sector: Pharmaceuticals, country: FR}
+  - {ticker: SU.PA, name: Schneider Electric, sector: Electrical Equipment, country: FR}
+  - {ticker: BNP.PA, name: BNP Paribas, sector: Banking, country: FR}
+  - {ticker: DG.PA, name: Vinci, sector: Construction & Concessions, country: FR}
+  - {ticker: RNO.PA, name: Renault, sector: Automobiles, country: FR}
+  - {ticker: STLAM.MI, name: Stellantis, sector: Automobiles, country: IT, fmp_symbol: STLA}
+  - {ticker: SAP.DE, name: SAP, sector: Enterprise Software, country: DE, fmp_symbol: SAP}
+  - {ticker: SIE.DE, name: Siemens, sector: Industrial Conglomerate, country: DE}
+  - {ticker: BMW.DE, name: BMW, sector: Automobiles, country: DE}
+  - {ticker: BAS.DE, name: BASF, sector: Chemicals, country: DE}
+  - {ticker: ASML.AS, name: ASML, sector: Semiconductor Equipment, country: NL, fmp_symbol: ASML,
+     ir_url: "https://www.asml.com/en/investors/annual-report/2025/downloads"}
+  - {ticker: NESN.SW, name: Nestle, sector: Food & Beverage, country: CH}
+  - {ticker: NOVN.SW, name: Novartis, sector: Pharmaceuticals, country: CH, fmp_symbol: NVS}
+  - {ticker: NVO, name: Novo Nordisk, sector: Pharmaceuticals, country: DK,
+     ir_url: "https://www.novonordisk.com/investors/financial-results.html"}
+  - {ticker: AZN.L, name: AstraZeneca, sector: Pharmaceuticals, country: GB, fmp_symbol: AZN}
+  - {ticker: SHEL.L, name: Shell, sector: Oil & Gas, country: GB, fmp_symbol: SHEL,
+     ir_url: "https://www.shell.com/investors/results-and-reporting/annual-report-archive.html"}
+
+  # --- United States ---
+  - {ticker: AAPL, name: Apple, sector: Consumer Electronics, country: US}
+  - {ticker: MSFT, name: Microsoft, sector: Software, country: US}
+  - {ticker: NVDA, name: NVIDIA, sector: Semiconductors, country: US}
+  - {ticker: AMZN, name: Amazon, sector: E-Commerce & Cloud, country: US}
+  - {ticker: GOOGL, name: Alphabet, sector: Internet Services, country: US}
+  - {ticker: META, name: Meta Platforms, sector: Social Media, country: US}
+  - {ticker: TSLA, name: Tesla, sector: Automobiles, country: US}
+  - {ticker: JPM, name: JPMorgan Chase, sector: Banking, country: US}
+  - {ticker: JNJ, name: Johnson & Johnson, sector: Pharmaceuticals, country: US}
+  - {ticker: PG, name: Procter & Gamble, sector: Consumer Staples, country: US}
+  - {ticker: XOM, name: ExxonMobil, sector: Oil & Gas, country: US}
+  - {ticker: KO, name: Coca-Cola, sector: Beverages, country: US}
+  - {ticker: PEP, name: PepsiCo, sector: Beverages, country: US}
+  - {ticker: WMT, name: Walmart, sector: Retail, country: US}
+  - {ticker: HD, name: Home Depot, sector: Home Improvement Retail, country: US}
+  - {ticker: CAT, name: Caterpillar, sector: Heavy Machinery, country: US}
+  - {ticker: DE, name: John Deere, sector: Agricultural Machinery, country: US}
+  - {ticker: BA, name: Boeing, sector: Aerospace & Defense, country: US,
+     ir_url: "https://investors.boeing.com/investors/financial-reports/default.aspx"}
+  - {ticker: GE, name: GE Aerospace, sector: Aerospace, country: US}
+  - {ticker: F, name: Ford, sector: Automobiles, country: US,
+     ir_url: "https://shareholder.ford.com/financials/default.aspx"}
+  - {ticker: GM, name: General Motors, sector: Automobiles, country: US}
+  - {ticker: NKE, name: Nike, sector: Apparel & Footwear, country: US}
+  - {ticker: MCD, name: "McDonald's", sector: Restaurants, country: US}
+  - {ticker: SBUX, name: Starbucks, sector: Restaurants, country: US}
+  - {ticker: DIS, name: Disney, sector: Media & Entertainment, country: US}
+  - {ticker: NFLX, name: Netflix, sector: Streaming, country: US}
+  - {ticker: AMD, name: AMD, sector: Semiconductors, country: US}
+  - {ticker: CRM, name: Salesforce, sector: Enterprise Software, country: US}
+  - {ticker: UNH, name: UnitedHealth, sector: Health Insurance, country: US,
+     ir_url: "https://www.unitedhealthgroup.com/investors/archive.html"}
+  - {ticker: PFE, name: Pfizer, sector: Pharmaceuticals, country: US}

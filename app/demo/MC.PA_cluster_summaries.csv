@@ -1,0 +1,41 @@
+canonical_id,n_ptcs,direction,polarity,corpus_presence,summary
+MC.PA-management-222,49,precursor,1,insider_only,External events and strategic initiatives drive financial and operational changes.
+MC.PA-management-338,27,precursor,1,insider_only,Strategic initiatives and market conditions drive company performance and investor sentiment.
+MC.PA-management-223,21,consequence,1,insider_only,Strategic financial maneuvers and market dynamics drive company performance.
+MC.PA-management-117,20,precursor,1,insider_only,Strategic initiatives and market conditions drive company financial performance.
+MC.PA-management-99,17,precursor,1,insider_only,Strategic initiatives and market conditions drive financial performance and investor sentiment.
+MC.PA-management-365,17,consequence,-1,insider_only,Financial transactions and market conditions drive company asset valuation and financial strategy.
+MC.PA-management-248,16,consequence,1,insider_only,Financial strategies and market conditions significantly impact company's equity and assets.
+MC.PA-management-194,15,consequence,-1,insider_only,Positive market conditions and strategic initiatives enhance company value.
+MC.PA-management-249,14,precursor,1,insider_only,Strategic initiatives and market dynamics drive company financial performance.
+MC.PA-management-380,12,consequence,-1,insider_only,Market conditions and strategic financial decisions impact company valuation and operations.
+MC.PA-management-107,12,consequence,1,insider_only,Financial leverage and market conditions drive company's debt and equity ratios.
+MC.PA-management-158,12,precursor,1,insider_only,Strategic financial maneuvers and market dynamics drive company performance.
+MC.PA-management-97,12,precursor,1,insider_only,Market conditions and strategic financial decisions drive company performance.
+MC.PA-management-269,11,precursor,1,insider_only,Positive market sentiment and strategic enhancements drive company growth.
+MC.PA-management-279,11,precursor,1,insider_only,Strategic enhancements and partnerships drive company growth and customer attraction.
+MC.PA-management-135,10,consequence,-1,insider_only,Financial strategies and market conditions affect LVMH's fiscal position and asset management.
+MC.PA-management-196,10,consequence,-1,insider_only,Market events and strategic actions drive company financial performance.
+MC.PA-management-81,10,precursor,1,insider_only,Strategic initiatives and market dynamics drive financial performance and debt management.
+MC.PA-management-236,10,precursor,1,insider_only,External factors and strategic initiatives drive company financial performance.
+MC.PA-management-336,9,precursor,1,insider_only,Strategic initiatives and partnerships enhance brand value and financial performance.
+MC.PA-management-51,9,precursor,1,insider_only,Strategic initiatives and market conditions significantly influence financial metrics and reporting.
+MC.PA-management-286,9,precursor,1,insider_only,Strategic initiatives and market conditions drive company performance and financial outcomes.
+MC.PA-management-137,8,precursor,1,insider_only,Strategic initiatives and market dynamics drive LVMH's financial performance.
+MC.PA-management-112,8,precursor,1,insider_only,Strategic financial decisions and operational improvements drive company performance.
+MC.PA-management-329,8,consequence,1,insider_only,Strategic financial maneuvers and acquisitions drive LVMH's market performance and growth.
+MC.PA-management-309,8,precursor,1,insider_only,Strategic financial maneuvers and acquisitions drive company growth and revenue.
+MC.PA-management-343,8,consequence,-1,insider_only,Strategic investments and market activities drive company growth and revenue.
+MC.PA-management-150,8,consequence,1,insider_only,Positive market events and announcements enhance company stock value.
+MC.PA-management-227,8,precursor,1,insider_only,Strategic initiatives and external factors drive company performance and revenue growth.
+MC.PA-management-300,8,precursor,1,insider_only,Positive market sentiment and strategic initiatives drive company growth and value.
+MC.PA-management-276,8,consequence,1,insider_only,Financial maneuvers and strategic planning drive LVMH's capital structure adjustments.
+MC.PA-management-105,8,consequence,1,insider_only,Strategic initiatives and market conditions drive company financial performance.
+MC.PA-management-256,8,precursor,1,insider_only,External economic and regulatory changes drive financial and operational adjustments.
+MC.PA-management-255,8,consequence,1,insider_only,Strategic financial maneuvers and acquisitions drive company growth and market value.
+MC.PA-management-189,8,consequence,1,insider_only,Financial strategies involving share repurchases and asset plans impact company equity.
+MC.PA-management-68,7,precursor,1,insider_only,External and internal factors variably influence company financials and operations.
+MC.PA-management-324,7,consequence,-1,insider_only,Financial decisions and market conditions drive company's fiscal health and performance.
+MC.PA-management-253,7,precursor,1,insider_only,Positive market sentiment and strategic initiatives drive company growth.
+MC.PA-management-159,7,consequence,1,insider_only,Strategic financial maneuvers and acquisitions drive company growth and market position.
+MC.PA-management-167,7,consequence,1,insider_only,Regulatory and operational changes drive company performance and financial outcomes.

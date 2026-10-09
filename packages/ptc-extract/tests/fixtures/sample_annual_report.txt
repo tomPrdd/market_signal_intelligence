@@ -1,0 +1,60 @@
+VERIDIAN MOBILITY PLC
+ANNUAL REPORT 2024 — RISK FACTORS (EXCERPT)
+
+The following risk factors may materially affect the Group's business, financial condition, results of operations, and prospects. This section should be read in conjunction with the financial statements and notes thereto included elsewhere in this Annual Report.
+
+RAW MATERIAL AND COMMODITY PRICE RISK
+
+The Group purchases significant quantities of natural rubber, synthetic rubber, carbon black, steel, and various petrochemical-derived compounds in the manufacture of its products. The prices of these raw materials are subject to substantial volatility driven by global supply-demand imbalances, geopolitical disruptions, and energy price fluctuations.
+
+Natural rubber prices are particularly sensitive to weather conditions in Southeast Asian growing regions, where the Group sources approximately 60% of its natural rubber requirements. Prolonged drought or flooding events in Thailand, Indonesia, or Malaysia can curtail latex yields and create significant spot-market price spikes that take twelve to eighteen months to fully transmit through the Group's cost base. The Group maintains a rolling three-month forward-purchase programme for natural rubber, which limits—but does not eliminate—short-term price exposure.
+
+In the financial year ended December 31, 2024, raw material costs as a percentage of revenue increased by 220 basis points compared to the prior year, driven primarily by the Q2-Q4 2024 natural rubber price surge that followed the April 2024 flooding in Southern Thailand. Management estimates that, absent this event, EBIT margins would have been approximately 180 basis points higher. The Group has initiated long-term supply agreements with three additional rubber plantations in Côte d'Ivoire and Liberia as a diversification measure; these agreements are expected to reduce Southeast Asia concentration risk from 60% to approximately 40% of total natural rubber sourcing by fiscal year 2026.
+
+DEMAND AND END-MARKET RISK
+
+The Group's revenues are substantially derived from the commercial vehicle, agriculture, and mining segments. These end-markets are cyclically sensitive and historically correlated with GDP growth, industrial production indices, and capital expenditure cycles in the relevant geographies.
+
+European commercial vehicle registrations declined 8.3% in calendar year 2024, reflecting weak freight volumes driven by reduced pan-European industrial activity and the normalisation of post-pandemic inventory restocking. Fleet operators deferred tyre replacement cycles, leading to a 6.1% volume decline in the Group's European replacement market segment. Management does not anticipate a recovery in European commercial vehicle demand before the second half of 2025, contingent on a stabilisation of energy prices and ECB monetary policy easing.
+
+Mining sector demand, which accounts for approximately 18% of Group revenues, remained robust in 2024, supported by elevated commodity prices for copper and lithium as global electrification investment accelerated. This partially offset the European weakness. The Group expects mining-related revenues to grow by a further 10-15% in fiscal year 2025 as new copper mine capacity commissioned in Chile and Peru ramps to full production.
+
+REGULATORY AND COMPLIANCE RISK
+
+The Group operates in over 45 jurisdictions and is subject to a complex and evolving regulatory environment encompassing product safety, environmental standards, labour practices, and data privacy.
+
+The European Union's Regulation on Batteries and Waste Batteries (EU 2023/1542), which entered into force in August 2023, imposes mandatory carbon footprint declarations for industrial batteries. Although the Group does not manufacture batteries, its connected fleet telematics products integrate battery management systems that may be within scope of extended producer responsibility obligations under future implementing legislation. Management is monitoring the regulatory implementation timeline and does not currently anticipate material compliance costs before 2026.
+
+The EU Deforestation Regulation (EUDR), applicable from December 30, 2024, requires companies placing natural rubber on the EU market to conduct due diligence to demonstrate that their supply chains are deforestation-free. The Group has invested approximately £2.1 million in supply chain traceability systems and satellite monitoring partnerships to achieve compliance. Failure to comply could result in market access restrictions and penalties of up to 4% of Group annual turnover in the EU. Management believes the Group is substantially compliant as of the date of this report.
+
+CURRENCY RISK
+
+The Group reports in Pound Sterling but generates approximately 62% of its revenues and 54% of its cost base in currencies other than GBP, primarily EUR, USD, BRL, and CNY. The Group employs a policy of hedging transactional currency exposures of twelve months or greater using forward foreign exchange contracts and, selectively, currency options.
+
+The weakening of the Brazilian Real against GBP by approximately 11% during 2024 reduced the sterling value of Brazilian revenues by an estimated £38 million. This was partially offset by a corresponding reduction in the sterling cost of Brazilian manufacturing operations. The net transactional impact was a £14 million adverse effect on EBIT.
+
+TECHNOLOGY AND INNOVATION RISK
+
+The Group's connected fleet telematics platform, Meridian360, competes in a market characterised by rapid technological change, emerging competitive threats from established software companies entering mobility data services, and evolving customer data sovereignty requirements.
+
+The Group invested £127 million in research and development in fiscal year 2024, representing 8.9% of revenues, compared to £118 million (7.9% of revenues) in fiscal year 2023. This increase reflects accelerated investment in AI-driven predictive maintenance algorithms and real-time tyre pressure and temperature monitoring capabilities. Management believes that the proprietary dataset of over 4.8 billion vehicle-kilometres accumulated through the Meridian360 platform constitutes a durable competitive advantage that new entrants cannot easily replicate.
+
+Customer churn in the Meridian360 platform remained low at 3.2% annualised in 2024, compared to an industry benchmark of approximately 7-9% for comparable telematics platforms. Management attributes this to the deep integration of the platform with customers' fleet management software and the high switching costs associated with retraining logistics personnel and reconfiguring routing algorithms.
+
+CREDIT AND COUNTERPARTY RISK
+
+The Group is exposed to credit risk from its trade receivables portfolio. As of December 31, 2024, gross trade receivables totalled £412 million, of which £28 million (6.8%) were past due by more than 30 days. The allowance for expected credit losses increased by £4.3 million compared to prior year, reflecting deterioration in the credit quality of a small number of European fleet operator customers experiencing financial distress.
+
+The Group's ten largest customers represent approximately 34% of annual revenues. The loss of any one of these customers, or a significant deterioration in their creditworthiness, could have a material adverse effect on the Group's financial results.
+
+CYBERSECURITY RISK
+
+The Group's telematics platform processes sensitive real-time vehicle location, speed, and driver behaviour data for over 2.3 million commercial vehicles across 45 countries. A material cybersecurity breach could expose the Group to regulatory penalties under GDPR, customer claims, reputational damage, and operational disruption.
+
+During fiscal year 2024, the Group invested £18 million in cybersecurity infrastructure, including the deployment of an AI-powered threat detection system and a third-party penetration testing programme. The Group has not experienced any material cybersecurity incident in the reporting period. However, the threat landscape continues to evolve, and no assurance can be given that future incidents will be prevented.
+
+HUMAN CAPITAL RISK
+
+The Group employed approximately 31,400 people globally as of December 31, 2024, including approximately 8,200 in manufacturing roles. Labour markets in the United Kingdom, France, and Germany remain tight in skilled manufacturing and engineering categories. Average base wages for unionised production workers in Western Europe increased by 6.3% in 2024 under collective bargaining agreements concluded in the first half of the year. These increases are expected to persist into 2025, adding approximately £22 million to the Group's annual cost base.
+
+The Group's engineering and data science talent pool, critical to the development and maintenance of the Meridian360 platform, is subject to intense competition from technology companies offering remote work arrangements and equity-based compensation. The Group introduced a long-term incentive plan for technology employees in 2023; early indicators suggest improved retention, with engineering voluntary turnover declining from 14.2% in 2022 to 9.8% in 2024.

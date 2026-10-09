@@ -1,0 +1,103 @@
+# Publish to PyPI via Trusted Publishing (OIDC) — no API tokens stored anywhere.
+#
+# This workflow cannot publish anything until you have configured a trusted
+# publisher on PyPI, so merging it is safe. One-time setup:
+#
+#   1. https://pypi.org/manage/account/publishing/  ->  "Add a new pending publisher"
+#        PyPI project name : ptc-extract
+#        Owner             : <your GitHub user or org>
+#        Repository name   : ptc-extract
+#        Workflow name     : release.yml
+#        Environment name  : pypi
+#   2. In the GitHub repo: Settings -> Environments -> New environment -> "pypi".
+#      Add yourself as a required reviewer so a tag push pauses for approval
+#      rather than releasing immediately.
+#   3. Repeat 1-2 for test.pypi.org with environment name "testpypi" if you want
+#      to rehearse first (recommended for the first release).
+#
+# To release:
+#   - bump `version` in pyproject.toml and add a CHANGELOG entry
+#   - git tag v0.1.0 && git push origin v0.1.0
+#
+# A PyPI version number can never be reused, even after deletion. Rehearse on
+# TestPyPI first.
+
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Where to publish"
+        required: true
+        default: testpypi
+        type: choice
+        options: [testpypi, pypi]
+
+jobs:
+  # Never ship a release that does not pass the same gate as a pull request.
+  test:
+    uses: ./.github/workflows/ci.yml
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Check the tag matches the version in pyproject.toml
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          pkg=$(grep -m1 '^version' pyproject.toml | cut -d'"' -f2)
+          if [ "$tag" != "$pkg" ]; then
+            echo "::error::tag v$tag does not match pyproject version $pkg"
+            exit 1
+          fi
+          echo "tag and version agree: $pkg"
+
+      - name: Build
+        run: uv build
+
+      - name: Verify the artefacts are well formed
+        run: uvx twine check dist/*
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+  testpypi:
+    needs: build
+    if: github.event_name == 'workflow_dispatch' && inputs.target == 'testpypi'
+    runs-on: ubuntu-latest
+    environment: testpypi
+    permissions:
+      id-token: write # required for trusted publishing
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+
+  pypi:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v') || inputs.target == 'pypi'
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write # required for trusted publishing
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1

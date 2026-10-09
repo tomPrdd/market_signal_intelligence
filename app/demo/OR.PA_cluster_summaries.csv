@@ -1,0 +1,41 @@
+canonical_id,n_ptcs,direction,polarity,corpus_presence,summary
+OR.PA-press-91,18,consequence,-1,outsider_only,Market demand and economic conditions drive L'Oreal's sales and stock performance.
+OR.PA-management-126,17,consequence,1,insider_only,Anti-competitive practices and currency fluctuations impact financial performance.
+OR.PA-management-89,15,consequence,-1,insider_only,External economic and legal factors significantly impact company financial performance.
+OR.PA-press-97,13,precursor,1,outsider_only,Geopolitical events and market conditions drive luxury skincare sales and profits.
+OR.PA-management-34,12,precursor,1,insider_only,Diverse growth strategies and market expansions drive L'Oréal's profitability.
+OR.PA-management-108,11,consequence,1,insider_only,Anti-competitive practices and market expansion drive company growth.
+OR.PA-press-90,11,precursor,-1,outsider_only,Market dynamics and consumer preferences significantly impact L'Oreal's sales and stock performance.
+OR.PA-management-46,10,consequence,1,insider_only,Foreign currency fluctuations and legal decisions impact company financials.
+OR.PA-press-79,10,precursor,-1,outsider_only,Economic conditions and strategic initiatives drive LVMH's global sales performance.
+OR.PA-management-73,9,consequence,-1,insider_only,External economic and legal factors significantly impact L'Oréal's financial performance.
+OR.PA-management-133,9,consequence,1,insider_only,External economic and legal factors significantly impact company financial performance.
+OR.PA-management-8,9,precursor,1,insider_only,Financial market volatility drives significant unrealised losses and asset revaluation risks.
+OR.PA-management-150,8,consequence,-1,insider_only,Margin rate decrease drives significant impairment loss risk for the company.
+OR.PA-management-148,8,consequence,-1,insider_only,Margin rate fluctuations and legal decisions significantly impact company earnings.
+OR.PA-press-81,8,consequence,1,outsider_only,Strong international sales growth drives e.l.f. Beauty's stock rally.
+OR.PA-press-110,7,consequence,1,outsider_only,Market demand and strategic shifts drive luxury and cosmetics firms' performance.
+OR.PA-press-87,7,precursor,1,outsider_only,Sales recovery in China post-lockdowns boosts luxury stock performance.
+OR.PA-press-39,7,consequence,-1,outsider_only,Investor sentiment driven by corporate transparency impacts stock prices.
+OR.PA-press-80,7,precursor,1,outsider_only,Strong international sales growth drives e.l.f. Beauty's stock rally and enterprise value increase.
+OR.PA-management-127,7,consequence,-1,insider_only,Margin rate decrease drives significant impairment loss risk for the company.
+OR.PA-press-83,7,consequence,1,outsider_only,Strong financial performance drives increased earnings per share and robust shareholders' equity.
+OR.PA-press-68,7,precursor,1,outsider_only,CEO's strategic focus and market conditions drive Coty's sales growth.
+OR.PA-management-145,6,consequence,-1,insider_only,Financial market fluctuations significantly impact the company's financial performance.
+OR.PA-management-40,6,precursor,-1,insider_only,External economic and legal factors significantly impact company financial performance.
+OR.PA-management-144,6,consequence,-1,insider_only,Margin rate changes significantly impact company profitability and financial obligations.
+OR.PA-management-43,6,consequence,-1,insider_only,Anti-competitive practices and currency fluctuations impact L'Oréal's financial performance.
+OR.PA-management-107,6,precursor,1,insider_only,Anti-competitive practices and market expansion drive company profitability.
+OR.PA-management-153,6,consequence,-1,insider_only,Legal decisions significantly impact L'Oréal's financial performance and profitability.
+OR.PA-management-152,6,consequence,-1,insider_only,External legal and financial factors significantly influence L'Oréal's financial performance.
+OR.PA-management-75,6,consequence,-1,insider_only,External economic and legal factors significantly influence company financial performance.
+OR.PA-press-50,6,consequence,1,outsider_only,Negative earnings call and sales-fraud disclosure drive Jumia's stock price decline.
+OR.PA-management-103,6,precursor,1,insider_only,Active Cosmetics Division and Moroccan/Egyptian markets drive company growth.
+OR.PA-press-67,6,consequence,-1,outsider_only,Supply chain delays and market growth impact IPG Photonics' financial performance.
+OR.PA-management-29,6,consequence,-1,insider_only,"Growth driven by Morocco, Egypt, and Active Cosmetics Division."
+OR.PA-press-98,6,consequence,-1,outsider_only,Market dynamics and consumer behavior significantly impact company performance.
+OR.PA-management-20,6,precursor,-1,insider_only,External economic and legal factors significantly impact company financial performance.
+OR.PA-press-60,6,precursor,1,outsider_only,L'Oreal's strategic acquisitions enhance market position and financial strength.
+OR.PA-press-35,5,precursor,1,outsider_only,AMD's chip market recovery optimism drives expected earnings growth.
+OR.PA-management-120,5,consequence,-1,insider_only,Diverse growth drivers and financial strategies impact company performance.
+OR.PA-management-138,5,consequence,1,insider_only,Financial volatility and margin rate decreases cause significant unrealised losses.

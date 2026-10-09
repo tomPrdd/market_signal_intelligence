@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Venv
+.venv/
+venv/
+
+# uv
+uv.lock
+
+# Caches
+.hypothesis/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local scratch
+*.jsonl
+*.parquet
+!tests/fixtures/*.jsonl
+!tests/fixtures/*.parquet

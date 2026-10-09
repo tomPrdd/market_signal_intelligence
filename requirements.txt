@@ -1,0 +1,7 @@
+# Streamlit Community Cloud deployment only — the app reads precomputed results
+# over HTTPS (SI_DATA_URL), so it needs none of the pipeline dependencies.
+# For development, use uv: `uv sync --extra dev --extra app --extra acquisition`.
+streamlit>=1.35
+plotly>=5.20
+pandas>=2.0
+requests>=2.31

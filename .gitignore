@@ -1,0 +1,154 @@
+# ==============================================================================
+# Secrets — never commit
+# ==============================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+.netrc
+credentials
+.aws/
+
+# ==============================================================================
+# Third-party press text — NOT redistributable
+#
+# The published dataset card (data/hf_dataset/README.md) states the policy:
+#   "Press rows have raw_text stripped (all 3,425). Those are third-party news
+#    articles and are not redistributed here in any form."
+# CC BY 4.0 covers only the annotation layer (mechanism, direction, polarity,
+# dates, derived columns) — not the source passages.
+#
+# The paths below hold the UNSTRIPPED text and would contradict that policy:
+#   data/raw/*/press/   769 full GDELT news articles (.txt)
+#   data/processed/     ptc_pool*.jsonl — 3,449 press rows with raw_text
+#
+# They also carry third-party PII: 47 unique work email addresses of named
+# journalists (WSJ, Thomson Reuters) and corporate staff (Sanofi), scraped
+# into the article text. Most are EU data subjects.
+#
+# NOTE: app/demo/*_ptc_pool.jsonl is deliberately NOT ignored. Those pools have
+# had press raw_text stripped (3,449 rows nulled, spans cleared) and keep only
+# management raw_text, so they match the published policy and the demo app
+# still works from a clean clone. Regenerate with:
+#     python scripts/build_demo_bundle.py <TICKER>
+# and re-strip press raw_text before committing the result.
+# ==============================================================================
+data/raw/
+data/processed/
+
+# ==============================================================================
+# Large derived artefacts — regenerable, too big to publish
+#   data/interim/   147 MB of Titan embeddings (.npy) + indices
+#   data/market/    yfinance price/earnings cache. Yahoo's terms restrict
+#                   redistribution of their market data; it is also trivially
+#                   re-fetchable, so it does not belong in the repo.
+# ==============================================================================
+data/interim/
+data/market/
+
+# The "documents" config is 80 M characters of management source text and the
+# embeddings config is model-specific and large. Both are served from the
+# Hugging Face dataset instead: tomPrdd/ptc-pool-eu-largecap
+data/hf_dataset/documents/
+data/hf_dataset/embeddings/
+
+# ==============================================================================
+# Private working material — never publish
+#   doc/      internal handoff notes, French methodological audit, literature
+#             review PDF, and an operational plan describing a private workflow
+#   article/  UNPUBLISHED drafts for tompradaude.com, with placeholder
+#             APP_URL / REPO_URL links still unfilled
+#   new_doc/  scratch staging directory
+# ==============================================================================
+doc/
+article/
+new_doc/
+
+# ==============================================================================
+# Internal operations documentation
+#
+# docs/CLEANUP_PLAN.md documents the S3 bucket prefix layout, object counts,
+# storage costs, retention decisions, and records a past incident in which the
+# bucket served 492 verbatim news articles world-readable. Useful internally,
+# but it maps private infrastructure and advertises a resolved exposure.
+# ==============================================================================
+docs/CLEANUP_PLAN.md
+
+# ==============================================================================
+# NESTED GIT REPOSITORY — ACTION REQUIRED BEFORE THE FIRST COMMIT
+#
+# packages/ptc-extract contains its own .git (github.com/tomPrdd/ptc-extract)
+# but is NOT registered as a submodule. `git add` records it as a bare gitlink
+# (mode 160000), so GitHub shows an empty, unclickable folder.
+#
+# It is deliberately NOT ignored here: pyproject.toml declares it as a uv
+# workspace member and a hard dependency —
+#     dependencies = ["ptc-extract[bedrock]"]
+#     [tool.uv.workspace] members = ["packages/*"]
+#     [tool.uv.sources]   ptc-extract = { workspace = true }
+#     pythonpath = ["src", "packages/ptc-extract/src"]
+# so excluding it would break `uv sync`, `import ptc_extraction` and pytest
+# for anyone who clones the repo.
+#
+# Resolve it one of these ways before committing:
+#   1. Vendor it as normal files:  rm -rf packages/ptc-extract/.git
+#   2. Make it a real submodule:   git submodule add \
+#        https://github.com/tomPrdd/ptc-extract packages/ptc-extract
+# Its own build cruft is ignored either way:
+packages/ptc-extract/.DS_Store
+packages/ptc-extract/dist/
+packages/ptc-extract/.venv/
+
+# ==============================================================================
+# Build, packaging, tooling
+# ==============================================================================
+dist/
+build/
+*.egg-info/
+.eggs/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+.python-version
+
+# ==============================================================================
+# Notebooks
+# ==============================================================================
+.ipynb_checkpoints/
+
+# ==============================================================================
+# OS / editor cruft
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# ==============================================================================
+# Run outputs
+# ==============================================================================
+outputs/
+logs/
+*.log
+results/
+hf-upload/

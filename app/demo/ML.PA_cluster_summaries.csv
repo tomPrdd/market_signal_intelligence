@@ -1,0 +1,41 @@
+canonical_id,n_ptcs,direction,polarity,corpus_presence,summary
+ML.PA-management-662,88,consequence,1,insider_only,External market conditions and strategic initiatives drive company performance.
+ML.PA-management-946,34,consequence,-1,insider_only,Regulatory and environmental commitments drive company strategic adjustments.
+ML.PA-management-508,21,consequence,1,insider_only,Financial performance drives strategic decisions and shareholder value enhancements.
+ML.PA-management-527,20,consequence,1,insider_only,Strong performance and strategic financial management enhance shareholder value and confidence.
+ML.PA-management-626,19,precursor,1,insider_only,"Strong performance drives confidence, dividends, and strategic financial maneuvers."
+ML.PA-management-864,18,consequence,-1,insider_only,Diversifying customer base and setting credit limits reduces Group's credit risk.
+ML.PA-press-57,17,consequence,-1,outsider_only,External economic factors and acquisitions drive Michelin's financial performance.
+ML.PA-management-905,17,precursor,1,insider_only,"Strong performance drives confidence, dividends, capital access, buybacks, and modernization."
+ML.PA-management-982,17,precursor,1,insider_only,"Strong performance drives confidence, dividends, capital access, and strategic initiatives."
+ML.PA-management-979,17,precursor,1,insider_only,Strong performance and strategic financial management enhance company value and shareholder returns.
+ML.PA-management-593,17,consequence,1,insider_only,Restructuring and financial maneuvers drive company's capital and operational adjustments.
+ML.PA-management-484,15,precursor,1,insider_only,Strategic initiatives and market dynamics drive company equity and performance.
+ML.PA-management-663,15,precursor,1,insider_only,Strategic financial maneuvers and market dynamics drive company equity fluctuations.
+ML.PA-management-907,15,consequence,1,insider_only,Strong performance and innovation drive company growth and shareholder value.
+ML.PA-management-934,14,consequence,-1,insider_only,Financial risk management strategies drive company's stability and performance.
+ML.PA-management-930,14,consequence,-1,insider_only,Strategic initiatives and market dynamics drive Michelin's financial performance.
+ML.PA-management-733,13,precursor,1,insider_only,"Operating performance drives executive compensation, shareholder returns, and capital strategies."
+ML.PA-management-838,12,consequence,-1,insider_only,Regulatory and strategic actions impact company financials and market position.
+ML.PA-press-28,12,precursor,-1,outsider_only,Economic conditions and consumer behavior drive revenue fluctuations for companies.
+ML.PA-management-951,12,consequence,-1,insider_only,Innovation and strategic market adaptation drive Michelin's growth and resilience.
+ML.PA-management-820,12,consequence,1,insider_only,Innovation and regulatory changes drive financial impacts on Michelin.
+ML.PA-management-953,12,consequence,-1,insider_only,Financial management strategies drive company performance and equity stability.
+ML.PA-management-877,12,consequence,-1,insider_only,Prudent financial policy enhances company stability and shareholder returns.
+ML.PA-management-646,12,precursor,1,insider_only,Strong performance and strategic initiatives enhance shareholder value and confidence.
+ML.PA-press-30,11,precursor,1,outsider_only,Platform adoption and innovation drive revenue growth despite cost challenges.
+ML.PA-management-723,11,consequence,1,insider_only,Market conditions and strategic initiatives drive company equity and growth.
+ML.PA-management-598,11,precursor,-1,insider_only,Financial management strategies and policies drive company performance and shareholder value.
+ML.PA-management-657,11,consequence,1,insider_only,Strategic financial decisions and acquisitions drive company growth and shareholder value.
+ML.PA-management-713,11,consequence,-1,insider_only,Regulatory and environmental commitments drive company strategic adjustments.
+ML.PA-management-859,11,precursor,1,insider_only,Corporate actions and amendments enhance shareholder value and company capital.
+ML.PA-management-985,10,precursor,1,insider_only,Shareholder value enhancement through financial strategies and regulatory alignment.
+ML.PA-management-958,10,precursor,1,insider_only,Strong financial performance drives strategic decisions and shareholder value enhancement.
+ML.PA-management-40,10,precursor,1,insider_only,Financial management strategies drive company stability and shareholder value.
+ML.PA-press-29,10,consequence,1,outsider_only,Strong adoption of Lightspeed's payments platform drives revenue growth.
+ML.PA-management-80,10,consequence,-1,insider_only,External assessments and market conditions influence the Group's financial strategy and performance.
+ML.PA-press-38,10,consequence,-1,outsider_only,Strategic partnerships and market conditions drive Michelin's financial performance.
+ML.PA-management-610,10,consequence,1,insider_only,Financial performance and risk management drive company valuation and investor confidence.
+ML.PA-management-600,10,consequence,-1,insider_only,Financial performance and strategic decisions drive company valuation and shareholder confidence.
+ML.PA-management-837,10,consequence,1,insider_only,Strategic financial maneuvers and innovations drive company growth and stability.
+ML.PA-management-771,10,precursor,1,insider_only,Diverse strategic initiatives drive company growth and risk mitigation.

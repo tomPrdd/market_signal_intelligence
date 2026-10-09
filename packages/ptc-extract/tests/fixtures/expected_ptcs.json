@@ -1,0 +1,26 @@
+[
+  {
+    "mechanism": "Surging natural rubber and carbon black prices increase cost of goods, compressing gross margins over the following two quarters.",
+    "raw_text": "unprecedented increases in natural rubber and carbon black prices, which began accelerating in the second quarter of 2024 and have continued to intensify",
+    "direction": "precursor",
+    "polarity": -1,
+    "event_date": null,
+    "confidence": 0.92
+  },
+  {
+    "mechanism": "Record connected fleet services order backlog signals future recurring revenue growth through 2025.",
+    "raw_text": "a record order backlog of £3.1 billion in connected fleet services as a leading indicator of future recurring revenue growth",
+    "direction": "precursor",
+    "polarity": 1,
+    "event_date": null,
+    "confidence": 0.88
+  },
+  {
+    "mechanism": "Closure of Clermont-Ferrand legacy facility generates annual fixed-cost savings, partially offsetting raw material cost pressure.",
+    "raw_text": "the October 2024 closure of its Clermont-Ferrand legacy facility will generate annual fixed-cost savings of approximately £45 million beginning in fiscal year 2025",
+    "direction": "consequence",
+    "polarity": 1,
+    "event_date": "2024-10-01",
+    "confidence": 0.95
+  }
+]

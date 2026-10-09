@@ -1,0 +1,41 @@
+canonical_id,n_ptcs,direction,polarity,corpus_presence,summary
+SAN.PA-management-950,28,precursor,-1,insider_only,Strategic transactions and integrations drive financial and operational changes.
+SAN.PA-management-1323,27,consequence,1,insider_only,Strategic financial decisions and market dynamics impact company performance.
+SAN.PA-management-1373,21,consequence,-1,insider_only,Regulatory and operational changes drive financial performance and reporting adjustments.
+SAN.PA-management-405,21,consequence,1,insider_only,Strategic transactions and financial adjustments impact Sanofi's financial performance.
+SAN.PA-management-1485,18,consequence,-1,insider_only,External factors and strategic decisions impact Sanofi's financial performance.
+SAN.PA-management-1207,18,consequence,-1,insider_only,Legal and financial restructuring activities drive company performance fluctuations.
+SAN.PA-management-264,18,precursor,-1,insider_only,Legal and financial actions drive operational and financial changes in the company.
+SAN.PA-management-1168,16,consequence,-1,insider_only,Legal and operational changes drive financial performance and strategic shifts.
+SAN.PA-management-747,16,consequence,1,insider_only,Strategic financial decisions and market dynamics significantly impact Sanofi's operational results.
+SAN.PA-management-695,16,consequence,-1,insider_only,Operational improvements and strategic decisions drive company performance growth.
+SAN.PA-management-404,15,precursor,1,insider_only,Strategic transactions and legal proceedings drive financial outcomes and operational changes.
+SAN.PA-management-905,15,consequence,-1,insider_only,Strategic financial decisions and accounting standards significantly impact company financials.
+SAN.PA-management-565,15,precursor,1,insider_only,Strategic transactions and legal proceedings significantly impact Sanofi's financials.
+SAN.PA-management-965,14,precursor,-1,insider_only,Legal and financial transactions drive company's operational and financial changes.
+SAN.PA-management-1375,14,consequence,-1,insider_only,Legal and financial transactions significantly impact company's operational and financial performance.
+SAN.PA-management-1172,14,precursor,1,insider_only,Strategic decisions and legal proceedings significantly impact Sanofi's financial performance.
+SAN.PA-management-143,14,precursor,1,insider_only,Diverse factors drive financial performance and operational efficiency.
+SAN.PA-management-617,14,precursor,1,insider_only,Legal and operational changes drive financial performance and reporting accuracy.
+SAN.PA-management-518,13,consequence,1,insider_only,Market conditions and strategic decisions drive company financial performance.
+SAN.PA-management-649,13,consequence,1,insider_only,Strategic transactions and external factors significantly impact Sanofi's financial performance.
+SAN.PA-management-1134,13,precursor,-1,insider_only,IFRS 16 adoption and strategic acquisitions drive operational and financial changes.
+SAN.PA-management-1223,13,consequence,1,insider_only,System integrations and acquisitions drive financial remeasurements and gains.
+SAN.PA-management-528,13,precursor,1,insider_only,Legal and financial transactions drive increased company expenditures and audit requirements.
+SAN.PA-management-889,13,consequence,1,insider_only,Regulatory and financial adjustments impact company's financial reporting and performance.
+SAN.PA-press-77,13,consequence,1,outsider_only,Market dynamics and strategic initiatives drive Regeneron's growth and competitive positioning.
+SAN.PA-management-1337,12,consequence,1,insider_only,Strategic financial transactions and regulatory changes drive company's operational adjustments.
+SAN.PA-management-676,12,consequence,1,insider_only,Financial restructuring and tax liabilities impact company's net income.
+SAN.PA-management-1343,12,consequence,-1,insider_only,Strategic financial maneuvers and integrations enhance operational efficiency and data accuracy.
+SAN.PA-management-1495,12,consequence,-1,insider_only,Strategic restructuring and market expansion drive company financial performance.
+SAN.PA-management-718,12,consequence,-1,insider_only,Legal and financial transactions drive increased audit and compliance activities.
+SAN.PA-management-1019,12,precursor,-1,insider_only,Legal and financial restructuring activities impact company's financial statements.
+SAN.PA-management-720,11,consequence,1,insider_only,Audits and financial assessments drive changes in reported financial metrics.
+SAN.PA-press-63,11,consequence,1,outsider_only,Strategic financial maneuvers and market adjustments enhance company profitability.
+SAN.PA-management-69,11,precursor,-1,insider_only,Restructuring agreements and transactions impact financial reporting and net income.
+SAN.PA-management-717,11,consequence,1,insider_only,Strategic financial decisions and market dynamics impact company performance.
+SAN.PA-management-1139,11,precursor,-1,insider_only,Financial transactions and audits impact company financial reporting and net income.
+SAN.PA-management-593,11,precursor,1,insider_only,Legal and regulatory proceedings significantly impact Sanofi's financial performance.
+SAN.PA-management-1128,11,consequence,1,insider_only,Restructuring agreements and transactions impact company financial statements.
+SAN.PA-management-716,10,consequence,1,insider_only,Strategic transactions and legal proceedings drive financial adjustments and reporting changes.
+SAN.PA-management-779,10,consequence,-1,insider_only,Legal and financial activities drive increased operational and audit costs.
